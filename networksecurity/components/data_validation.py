@@ -5,7 +5,8 @@ from networksecurity.logging.logger import logging
 from networksecurity.constant.training_pipeline import SCHEMA_FILE_PATH
 from scipy.stats import ks_2samp
 import pandas as pd
-import os,sys
+import os
+import sys
 from networksecurity.utils.main_utils.utils import read_yaml_file,write_yaml_file
 
 class DataValidation:
